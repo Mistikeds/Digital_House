@@ -1,0 +1,14 @@
+/* estilos generales  */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* estilos de contenedores */ 
+
+.flex{
+    display: flex;
+
+}
