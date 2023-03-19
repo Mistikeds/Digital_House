@@ -1,0 +1,5 @@
+notamos desde nuestra parte que la empresa tiene una grave falta en seguridad fisica
+mientras que tambien detectamos una buena seguridad logica pero recomendamos una modificacion en la seguridad
+primero y principal va a requerir una modificacion en la seguridad logica se cambiara el antivirus 
+ya que la empresa cuenta con un antivirus de SO (windows defender)
+en la fisica se agregara un UPS para sa
