@@ -1,0 +1,9 @@
+¿Cómo creamos una tabla con sentencias de SQL?
+
+- create, drop y alter
+
+CREATE TABLE new_table  (CREA)
+
+DROP TABLE tbl_name   (BORRA)
+
+ALTER TABLE tbl_name   (MODIFICA)

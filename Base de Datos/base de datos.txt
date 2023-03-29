@@ -1,0 +1,23 @@
+base de datos:
+
+UQ(UNIT)= Hace que solo haya un valor que no se repita
+B(BINARI)= atributos de tipo binario
+UN(Unsigned)= no acepta nº negativos(se duplica de 0 a 250)
+ZF=agrega 2 0 adelante para que sean 3
+AI= sirve para recorrer uno en uno o 7 en 7 ..
+G=se debe colocar una formula que sume el nombre y el apellido
+
+database
+forward engeniere
+next
+next
+next
+save to file
+
+reverse
+next
+elegir base de datos
+next..
+
++
+Number()

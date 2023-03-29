@@ -1,0 +1,72 @@
+BD: HACER UNA CONSULTA
+
+SELECT nombre_columna, nombre_columna,. ///columnas
+FROM nombre_tabla /// nombre de tabla
+WHERE condition; /// condicional
+ORDER BY nombre_columna1; /// ORDENA LA LISTA
+ ASCENDENTE(ASC), DESCENDENTE(DESC)
+ORDER BY nombre (DESC)
+
+
+
+SELECT nombre, edad
+FROM usuarios
+WHERE edad > 17
+
+IS NOT NULL >NO ES NULO
+IS NULL ---> ES NULO
+BETWEEN ---> ENTRE DOS VALORES
+NOT BETWEEN > NO ENTRE DOS VALORES
+IN --------> LISTA DE VALORES
+LIKE ------> SE AJUSTA A
+
+atributo IN (5, 10, 15, 20, 25, 30)
+atributo = NULL XXXXXXX
+atributo IS NULL
+
+
+WHERE title LIKE 'Avatar'; (trae especificamente Avatar)
+
+WHERE awards BETWEEN 3 AND 7
+
+
+DELETE FROM usuarios
+WHERE id = 2;
+
+
+BETWEEN incluye los extremos
+
+
+SELECT nombre, edad
+FROM alumnos
+WHERE edad BETWEEN 6 AND 12 /// entre 6 a 12
+
+------------------------------------------------
+LIKE (COMODIN %)
+% = CERO, UNO O VARIOS CARACTERES
+_ = UN SOLO CARACTER
+
+SELECT nombre
+FROM usuarios
+WHERE nombre LIKE '_a%'; --> indica que quiere un caracter adelante y atras cualquier cosa ejemplos: Paz, Paloma, Mama.
+WHERE direccion LIKE '%Monroe%'; --> varios caracteres adelante y atras ejemplo: Av. Monroe 860.
+------------------------------------------------
+SELECT nombre_columna1, nombre_ columna2
+FROM nombre_tabla
+LIMIT cantidad_de_registros
+
+SELECT *
+FROM peliculas
+WHERE premios > 4
+LIMIT 10; // MUESTRA 10
+OFFSET 10; // SALTA 10 
+
+
+SELECT * FROM cancion
+ORDER BY nombredecolumna DESC // PIDE LA QUE TIENE MAS VALOR
+LIMIT 1; 
+
+SELECT nombreusuario, fecha_nac, TIMESTAMPDIFF(YEAR, fecha_nac, NOW()) AS Edad FROM usuario /// AS Edad -> crea columna Edad
+
+
+--------------------------------------------------
